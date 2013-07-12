@@ -11,7 +11,7 @@ app.get('/', function(request, response) {
 	fs.readFile(file, function (err, data) {
 		if (err) throw err;
 		var buffer = new Buffer(data);
-		response.send(buffer.toString();
+		response.send(buffer.toString());
 	});
 	
 });
